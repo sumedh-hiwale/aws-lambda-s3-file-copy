@@ -9,10 +9,10 @@
         "s3:ListBucket"
       ],
       "Resource": [
-        "arn:aws:s3:::sumedh-source-bucket-12345",
-        "arn:aws:s3:::sumedh-source-bucket-12345/*",
-        "arn:aws:s3:::sumedh-destination-bucket-12345",
-        "arn:aws:s3:::sumedh-destination-bucket-12345/*"
+        "arn:aws:s3:::<SOURCE_BUCKET_NAME>",
+        "arn:aws:s3:::<SOURCE_BUCKET_NAME>/*",
+        "arn:aws:s3:::<DESTINATION_BUCKET_NAME>",
+        "arn:aws:s3:::<DESTINATION_BUCKET_NAME>/*"
       ]
     }
   ]
